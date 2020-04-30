@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+}
+.split {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.left {
+    left: 0;
+    /*background-color: rgb(122, 246, 180);*/
+    width: 33%;
+}
+.middle{
+    /*background-color: rgb(251, 226, 187);*/
+    width: 100%;
+}
+.right {
+    right: 0;
+    /*background-color: rgb(0, 153, 255);*/
+    width: 33%;
+}
+/* ------------------------------------------------------ */
+.centered {
+    position: absolute;
+    background-color: #ffda1f;
+    border-radius: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.centered:hover{
+    color: rgb(255, 0, 0);
+}
+.centered img {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+    width: 200px;
+    border-style: solid;
+}
+/* ------------------------------------------------------ */
+.nameID{
+    margin-bottom: 35px;
+}
+/* ------------------------------------------------------ */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    
+  }

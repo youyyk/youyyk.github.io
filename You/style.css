@@ -1,0 +1,65 @@
+@font-face {
+    src: url(Fonts/Pangolin-Regular.ttf);
+    font-family: Pangolin;
+}
+
+@font-face{
+    src:  url(Fonts/Mukta/Mukta-Regular.ttf);
+    font-family: Mukta;
+}
+body {
+    /* Set Img */
+    background-image: url("img/p1.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 100%;
+}
+/* Build Side */
+.sidenav {
+    font-family: Pangolin;
+    height: 100%; /* Height Full Screen */
+    width: 10%;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: blanchedalmond;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.sidenav a {
+    padding: 6px 8px 13px 16px;
+    text-decoration: none;
+    font-size: 33px;
+    color: #000000;
+    display: block;
+}
+/* When mouse on side button */
+.sidenav a:hover {
+    color: #888888;
+}
+
+/* Body Class */
+.main {
+    /* Margin Between Side & Body */
+    font-family: Mukta;
+    margin-top: 10%;
+    margin-left: 13%;
+    width: 500px;
+    height: 580px;
+    background-color: rgb(136, 136, 136, 0.5);
+    text-align: center;
+    border-radius: 10%;
+}
+.pic{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.tb{
+    margin-left: 69px;
+    margin-top: 40px;
+    font-size: 22px;
+    text-align: left;
+    width: 90%;
+}
