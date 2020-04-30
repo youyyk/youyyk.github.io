@@ -1,7 +1,15 @@
+@font-face{
+    src: url(./fonts/Tron.ttf);
+    font-family: Tron;
+}
+@font-face{
+    src: url(./fonts/CyberspaceRacewayBack-Black.ttf);
+    font-family: cyberrace;
+}
+/* ------------------------------------------------------ */
 body {
     font-family: Arial;
 }
-/* ------------------------------------------------------ */
 a {
     color: black;
 }
@@ -34,24 +42,38 @@ a:hover {
 }
 /* ------------------------------------------------------ */
 .centered {
+    font-family: cyberrace;
     position: absolute;
-    background-color: #ffda1f;
+    background-color: rgb(255, 218, 31, 0.9);
     border-radius: 10%;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+.centered:hover{
+    background-color: rgb(255, 218, 31);
 }
 .centered img {
     margin-left: 60px;
     margin-right: 60px;
     margin-top: 50px;
-    width: 200px;
-    border-style: solid;
+    width: 250px;
+ 
 }
 /* ------------------------------------------------------ */
 .nameID{
+    margin-top: 40px;
     margin-bottom: 35px;
+}
+/* ------------------------------------------------------ */
+.groupName{
+    font-family: Tron;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 82px;
+    text-shadow: 5px 5px 5px rgb(255, 218, 31);
 }
 /* ------------------------------------------------------ */
 #myVideo {
