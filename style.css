@@ -46,7 +46,7 @@ a:hover {
     position: absolute;
     background-color: rgb(255, 218, 31, 0.9);
     border-radius: 10%;
-    top: 55%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -58,7 +58,7 @@ a:hover {
     margin-left: 60px;
     margin-right: 60px;
     margin-top: 50px;
-    width: 250px;
+    width: 280px;
  
 }
 /* ------------------------------------------------------ */
